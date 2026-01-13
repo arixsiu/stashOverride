@@ -1,0 +1,9 @@
+name: 任天堂与宝可梦直连
+desc: 强制将所有包含 nintendo 或 pokemon 关键词的域名设为直连模式
+
+rules:
+  # 匹配任何包含 nintendo 的域名（如 nintendo.com, nintendo.net 等）
+  - DOMAIN-KEYWORD,nintendo,DIRECT
+  
+  # 匹配任何包含 pokemon 的域名（如 pokemon.com, pokemon.co.jp 等）
+  - DOMAIN-KEYWORD,pokemon,DIRECT
