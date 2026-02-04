@@ -7,3 +7,8 @@ rules:
   
   # 匹配任何包含 pokemon 的域名（如 pokemon.com, pokemon.co.jp 等）
   - DOMAIN-KEYWORD,pokemon,DIRECT
+
+  # 匹配任何包含 supermario 的域名（如 supermariorun.com等）
+  - DOMAIN-KEYWORD,supermariorun,DIRECT
+
+  
