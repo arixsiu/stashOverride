@@ -11,4 +11,9 @@ rules:
   # 匹配任何包含 supermario 的域名（如 supermariorun.com等）
   - DOMAIN-KEYWORD,supermariorun,DIRECT
 
+  # 匹配任何包含 player-api-prod.app-41283 的域名（如 player-api-prod等）
+  - DOMAIN-KEYWORD,player-api-prod.app-41283,DIRECT
+
+
+
   
